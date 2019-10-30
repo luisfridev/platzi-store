@@ -2,15 +2,18 @@
 {{ title }}
 
 <div [ngSwitch]="title">
-<p *ngSwitchCase="'luis'">
-  Este es luis
-</p>
-<p *ngSwitchCase="'juan'">
-  Este es juan
-</p>
-<p *ngSwitchCase="'camilo'">
-  Este es camilo
-</p>
+  <p *ngSwitchCase="'luis'">
+    Este es luis
+  </p>
+  <p *ngSwitchCase="'juan'">
+    Este es juan
+  </p>
+  <p *ngSwitchCase="'camilo'">
+    Este es camilo
+  </p>
+  <p *ngSwitchDefault>
+    No hay match
+  </p>
 </div>
 
 <h2>Lista</h2>
