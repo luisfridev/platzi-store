@@ -6,6 +6,7 @@ import { Product } from './models/product';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
   title = 'platzi-store';
   items = ['luis', 'angel', 'frias'];
